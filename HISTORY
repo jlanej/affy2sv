@@ -1,0 +1,28 @@
+## HISTORY
+###############################################################################
+2014-09-01  ADD FUNCTION (V 1.0.10)
+            ADD - Restored first functions for Axiom process (Ax2APT and
+                  auxiliary)
+
+2014-06-23  CHANGE CYTO (V 1.0.8)
+            chernandez
+            CHG - Changed the way the result of the CytoProcess.Mad resurns
+                  data when PennCNV file is asked.
+
+2014-05-22  ADD FUNCTION (V 1.0.7)
+            chernandez
+            ADD - Added a function called segAggregate to aggregate the output
+                  tables from MAD or DNAcopy given a threshold for distance to
+                  consider more than one row a single segment.
+
+2014-05-13  CORRECTION CYTO (V 1.0.6)
+            chernandez
+            CHG - The creation of the PennCNV file for CytoScan misplaced the
+                  column's names of the table from the 2nd to the Nnd 
+                  individual.
+
+2014-05-09  CREATION OF HSITORY (V 1.0.5)
+            chernandez
+            REM - Suppressed the filling of chrY for GW6.
+            ADD - Added a wrapper for apt-chp-to-txt to convert cychp files
+                  to cychp.txt files.

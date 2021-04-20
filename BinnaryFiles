@@ -1,0 +1,9 @@
+exec/linux64.apt-copynumber-cyto
+exec/linux64.apt-geno-qc
+exec/linux64.apt-probeset-genotype
+exec/win64.apt-copynumber-cyto.exe
+exec/win64.apt-geno-qc.exe
+exec/win64.apt-probeset-genotype.exe
+exec/mac64.apt-copynumber-cyto
+exec/mac64.apt-geno-qc
+exec/mac64.apt-probeset-genotype

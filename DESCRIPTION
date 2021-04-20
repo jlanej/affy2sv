@@ -1,0 +1,39 @@
+Package: affy2sv
+Title: Affymetrix SNP arrays preprocess for Structural Variants
+    analysis
+Version: 1.0.14
+Date: 2015-04-09
+Author: Carles Hernandez Ferrer <chernandez@creal.cat> and Juan R Gonzalez
+    <jrgonzalez@creal.cat>
+Maintainer: Juan R Gonzalez <jrgonzalez@creal.cat>
+Description: MAD and invClust; as snpStats, R-GADA, PLINK or PennCNV, requests a
+    specific input format. This package allows to extract the requested information
+    from the raw CEL files from Affymetrix (GenomeWide SNP 5.0/6.0, Axiom and
+    CytoScan HD/750k) and create each type of input file for those software.
+Depends:
+    R (>= 3.0.0),
+    snpStats,
+    crlmm,
+    oligo,
+    oligoClasses,
+    VanillaICE,
+    SNPchip,
+    genomewidesnp6Crlmm,
+    genomewidesnp5Crlmm,
+    ff,
+    pd.genomewidesnp.6,
+    pd.genomewidesnp.5,
+    stringr,
+    biomaRt,
+    ggplot2,
+    gtable,
+    grid,
+    data.table,
+    Biobase,
+    parallel,
+    methods
+SystemRequirements: python (=2.7), numpy (>=1.7), pandas
+License: GPL-2
+URL: https://bitbucket.org/brge/affy2sv
+Packaged: 2014-11-11 13:52:40 UTC; chernandez
+RoxygenNote: 5.0.1
