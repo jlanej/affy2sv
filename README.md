@@ -12,6 +12,10 @@ Welcome to the `affy2sv` repository. Check the following sections to get `affy2s
 * Use the wiki to learn how to install the dependences of `affy2sv`.
 * Use the download section to get the last `.zip` of `affy2sv`
 
+### Documentation ###
+
+* **[CytoScan HD Array Processing Guide](CYTOSCAN_HD_PROCESSING.md)** - Comprehensive documentation on how CytoScan HD arrays are processed to extract genotypes, BAF, LRR, and A/B probe intensities
+
 ### Reference
 
 The paper showing the capabilities of `affy2sv` was published at BMC Bioinformatics. You can get it at [here](http://www.biomedcentral.com/1471-2105/16/167).
